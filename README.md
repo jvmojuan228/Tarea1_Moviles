@@ -9,4 +9,21 @@ npm i
 npm run dev
 ```
 
-Open [http://localhost:3002](http://localhost:3002) with your browser to see the result.
+## Para probar el proyecto
+
+Para poder ejecutar el proyecto se necesita instalar todas las dependencias necesarias con el comando
+
+```bash
+npm i
+```
+
+De igual manera se necesita configurar el archivo bd.js con las credencias necesarias para utilizarse con el manejador de base de datos MySQL
+
+Tambien se necesita importar la base de datos al manejador de base de datos para su correcto uso. Archivo: pedidos_pedido.sql
+
+Finalmente para poder correlo, en una consola se debe ingresar el siguiente comando.
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
